@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour & Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header or navigation section  -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>TRAV</span>AG</a>
+
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#Book">Book</a>
+            <a href="#Special offers">Special Offers</a>
+            <a href="#Services">Services</a>
+            <a href="#Testimonials">Testimonials</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search here....">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="Login Now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>forget Password? <a href="#"> click here</a></p>
+            <p>Don't have an account<a href="#"> Register Now</a></p>
+        </form>
+    </div>
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Live Your Dream Destination</h3>
+            <p>Discover another destination with us, start your journey....</p>
+            <a href="#" class="btn">Explore more</a>
+
+        </div>
+        <div class="img-container">
+            <img src="img/maldives-gd97ca526f_1920.jpg" alt="no-pic">
+        </div>
+    </section>
+    <!-- book section -->
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="img/plane.jpg" alt="no-pic">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="Number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="Book Now">
+            </form>
+        </div>
+
+
+    </section>
+
+    <!-- special offers -->
+
+    <section class="offers" id="offers">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>p</span>
+            <span>e</span>
+            <span>c</span>
+            <span>i</span>
+            <span>a</span>
+            <span>l</span>
+            <span class="space"></span>
+            <span>o</span>
+            <span>f</span>
+            <span>f</span>
+            <span>e</span>
+            <span>r</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/photo-1593693411515-c20261bcad6e.jpeg" alt="no-pic">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Kerala</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex distinctio sunt ut!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$150.00 <span> $250.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/train-g8ebfbe84c_1920.jpg" alt="no-pic">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Shimla</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex distinctio sunt ut!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$200.00 <span> $300.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/pexels-steven-hylands-1650904.jpg" alt="no-pic">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Bangalore</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex distinctio sunt ut!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$250.00 <span> $350.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/istockphoto-1224021113-612x612.jpg" alt="no-pic">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Rajasthan</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex distinctio sunt ut!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$100.00 <span> $200.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/istockphoto-511119924-612x612.jpg" alt="no-pic">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Assam</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex distinctio sunt ut!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$200.00 <span> $300.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/photo-1598091383021-15ddea10925d.jpeg" alt="no-pic">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Kashmir</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex distinctio sunt ut!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$250.00 <span> $350.00</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="service" id="service">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>5 Star Hotels</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo quaerat laudantium quis eligendi
+                    vitae, velit eveniet voluptatibus dolor sit amet consectetur adipisicing quaerat laudantium quis
+                    eligendi vitae Quos nemo quaerat laudantium quis eligendi vitae.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Food & Beverages</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo quaerat laudantium quis eligendi
+                    vitae, velit eveniet voluptatibus dolor sit amet consectetur adipisicing quaerat laudantium quis
+                    eligendi vitae Quos nemo quaerat laudantium quis eligendi vitae.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Safety Guide</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo quaerat laudantium quis eligendi
+                    vitae, velit eveniet voluptatibus dolor sit amet consectetur adipisicing quaerat laudantium quis
+                    eligendi vitae Quos nemo quaerat laudantium quis eligendi vitae.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>All over the world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo quaerat laudantium quis eligendi
+                    vitae, velit eveniet voluptatibus dolor sit amet consectetur adipisicing quaerat laudantium quis
+                    eligendi vitae Quos nemo quaerat laudantium quis eligendi vitae.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Fastest Travel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo quaerat laudantium quis eligendi
+                    vitae, velit eveniet voluptatibus dolor sit amet consectetur adipisicing quaerat laudantium quis
+                    eligendi vitae Quos nemo quaerat laudantium quis eligendi vitae.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventure</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo quaerat laudantium quis eligendi
+                    vitae, velit eveniet voluptatibus dolor sit amet consectetur adipisicing quaerat laudantium quis
+                    eligendi vitae Quos nemo quaerat laudantium quis eligendi vitae.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+
+
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>T</span>
+            <span>e</span>
+            <span>s</span>
+            <span>t</span>
+            <span>i</span>
+            <span>m</span>
+            <span>o</span>
+            <span>n</span>
+            <span>i</span>
+            <span>a</span>
+            <span>l</span>
+            <span>s</span>
+
+        </h1>
+        <div class="review-slider">
+            <div class="wrapper">
+                <div class="slider">
+                    <div class="box">
+                        <img src="img/men1.JPG" alt="no-pic">
+                        <h3>Mr. Arthav D'souza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed iusto nemo, rerum illo omnis
+                            reprehenderit ratione voluptas laudantium quibusdam aut, ex commodi, assumenda facere minima
+                            placeat sapiente vel magnam ipsa. Accusamus ratione eligendi impedit! Odio odit quaerat
+                            officia saepe vero exercitationem eius nulla, impedit excepturi quod expedita inventore
+                            voluptatem. Molestiae quisquam suscipit optio voluptas sapiente, quam, corrupti pariatur
+                            maiores aperiam odit fugiat error magni! Accusantium ut asperiores magnam quod quam minima
+                            at.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="box">
+                        <img src="img/women2.JPG" alt="no-pic">
+                        <h3>Ms. Monica Singh</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed iusto nemo, rerum illo omnis
+                            reprehenderit ratione voluptas laudantium quibusdam aut, ex commodi, assumenda facere minima
+                            placeat sapiente vel magnam ipsa. Accusamus ratione eligendi impedit! Odio odit quaerat
+                            officia saepe vero exercitationem eius nulla, impedit excepturi quod expedita inventore
+                            voluptatem. Molestiae quisquam suscipit optio voluptas sapiente, quam, corrupti pariatur
+                            maiores aperiam odit fugiat error magni! Accusantium ut asperiores magnam quod quam minima
+                            at.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="img/house-key-gf6ab3e83f_1280.png" alt="no-pic">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email id">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="Enter Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="Send message">
+            </form>
+
+        </div>
+
+    </section>
+
+    <script src="source.js"></script>
+
+</body>
+
+</html>
