@@ -1,0 +1,110 @@
+body {
+    font-family: cursive;
+    line-height: 1.3;
+    margin: 0;
+    padding: 0;
+    background: rgb(247,171,204);
+    background: linear-gradient(111deg, rgba(247,171,204,1) 13%, rgba(148,187,233,1) 69%);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    max-width: 100%;
+    border-radius: 20%;
+    box-shadow: 0 0 8px rgba(28, 25, 25, 0.2);
+}
+
+.quote {
+    font-style: italic;
+    color: blue;
+    font-size: 30px;
+}
+
+.qualities {
+    margin-top: 2rem;
+}
+
+.qualities h2 {
+    color: #333;
+    border-bottom: 2px solid blue;
+    padding-bottom: 0.5rem;
+}
+
+.accomplishments {
+    margin-top: 2rem;
+}
+
+.accomplishments h2 {
+    color: #333;
+    border-bottom: 2px solid blue;
+    padding-bottom: 0.5rem;
+}
+
+ul {
+    list-style:none;
+    padding: 10px;
+}
+
+li::before {
+    content: '✓ ';
+    color: blue;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.timeline h2 {
+    margin-left: 10px;
+    padding-top: 30px;
+}
+
+.timeline ul {
+    padding: 0px 150px;
+}
+
+.timeline li {
+    list-style-type: none;
+    padding: 10px 5px;
+    font-size: 16px;
+    margin-left: -27.5%;
+    text-align: left;
+}
+
+.timeline li:before {
+    content: '✓';
+    color: blue;
+    text-align: 15px;
+  
+}
+.timeline h2{
+        color: #333;
+        border-bottom: 2px solid blue;
+        padding-bottom: 0.5rem;
+}
