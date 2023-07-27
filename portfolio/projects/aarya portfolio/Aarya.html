@@ -1,0 +1,413 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>portfolio</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #header {
+            position: sticky;
+            top: 0;
+            height: 5px;
+        }
+
+        table {
+            box-sizing: border-box;
+            padding-top: -5px;
+        }
+
+        .user-dp {
+            width: 30px;
+            height: 30px;
+            background: black;
+        }
+
+        #home {
+            box-sizing: border-box;
+            height: 100vh;
+            background-color: #93e9e5;
+            background: linear-gradient(90deg, #16fff3, #2f6865, rgba(207, 220, 234, 0.1), #c2faed);
+            color: white;
+            padding: 300px;
+            display: flex;
+            flex-direction: column;
+            padding-top: 100px;
+            z-index: 100;
+        }
+
+        #home p {
+            max-width: 50%;
+        }
+
+        #home img {
+            position: absolute;
+            left: 28%;
+            top: -10%;
+            z-index: -80;
+            border-radius: 10px;
+            transform: scale(1.5);
+            /* visibility: visible; */
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ff0000;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Start Header-->
+    <table id="header" border="0" width="100%" cellpadding="5" cellspacing="0" bgcolor="#0159A">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="5" cellspacing="0" align="center">
+                    <tr>
+                        <td>
+                            <font face="arial" color="#fff" size="5" style="display: flex; flex-direction: row;">
+                                <div class="user-dp"
+                                    style="background: url(./Me1.jpg); background-size: cover; border-radius: 50%; margin-right: 20px;">
+                                </div>
+                                Aarya
+                            </font>
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td>
+                            <a href="#home">
+                                <font face="arial" color="#ffffff" size="5">Home</font>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#about">
+                                <font face="arial" color="#ffffff" size="5">About</font>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="#achievements">
+                                <font face="arial" color="#ffffff" size="5">Achievements</font>
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="#contact">
+                                <font face="arial" color="#ffffff" size="5">Contact</font>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--End Header-->
+    <!--Start Home-->
+    <div id="home" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#09C99D">
+        <div id="intro-text">
+            <font face="arial" color="#0000000" size="5">
+                <h1>Hi, i am Aarya,</h1>
+                <p>I am a student of COMPUTER ENGINEERING from 3rd Semester, also i am a person who like programming
+                    and i am obessed with coding.</p>
+            </font>
+            <button type="button" class="btn btn-success"><a href="#contact">Let's talk -></a></button>
+        </div>
+        <div id="intro-img">
+            <img src="./Me1.jpg" alt="Aarya">
+        </div>
+    </div>
+    <!--End Home-->
+    <hr />
+    <!--Start About-->
+    <table id="about" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#0E98A3">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <!-- Heading Start-->
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                            <font face="arial" color="#000000" size="6">
+                                About Me
+                            </font>
+                            <hr width="70" color="#f3971b">
+                        </td>
+                    </tr>
+                    <!--Heading End-->
+                    <tr>
+                        <td width="40%">
+                            <img src="./phone files 687.jpg" alt="Aarya" width="90%">
+                        </td>
+                        <td width="60%">
+                            <font face="arial" color="#ffffff" size="4">
+                                <h2 style="color: black; font-style: italic;">
+                                    I am a passionate Programmer
+                                </h2>
+                                Passion for working on the latest technology, building valuable software, increasing the
+                                company's revenue, and watching the team grow together
+                            </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--End About-->
+    <hr />
+    <!--Start Achievements-->
+    <table id="achievements" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#0E98A3">
+        <tr>
+            <td>
+                <table border="0" width="60%" cellpadding="10" cellspacing="0" align="center">
+                    <!-- Heading Start-->
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                            <font face="arial" color="#000000" size="6">
+                                Achievements
+                            </font>
+                            <hr width="70" color="#292929">
+                        </td>
+                    </tr>
+                    <!--Heading End-->
+                    <tr>
+                        <td width="50%" valign="top">
+                            <font face="arial" color="#ffffff" size="4.5">
+                                <ul>
+                                    <h3 style="color: black; font-style: italic;">Know about c language, HTML , CSS.
+
+                                    </h3>
+                                    <p>C is a general-purpose computer programming language.</p>
+                                    <p>HTML is the standard markup language for Web pages. With HTML you can create your
+                                        own Website.</p>
+                                    <p>CSS is the language we use to style an HTML document. </p>
+                                </ul>
+                            </font>
+                        </td>
+                        <td valign="top">
+                            <img src="./phone files 1154.jpg" alt="Achievements" width="100%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--End Achievements-->
+    <hr />
+    <!--Start Contact-->
+    <table id="contact" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#0E98A3">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="10" cellspacing="0" align="center">
+                    <!-- Heading Start-->
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="1">
+                            <font face="arial" color="#000000" size="6">
+                                Contact
+                            </font>
+                            <hr width="70" color="#f3971b">
+                        </td>
+                    </tr>
+                    <!--Heading End-->
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" width="50%" cellpadding="15" cellspacing="0" align="center"
+                                bgcolor="indianred">
+                                <tr>
+                                    <td width="30%">
+                                        <font face="arial" size="4" color="#ffffff">
+                                            Name
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="arial" size="4" color="#ffffff">
+                                            <input id="user-name100" type="text" size="40">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="arial" size="4" color="#ffffff">
+                                            Email
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="arial" size="4" color="#ffffff">
+                                            <input type="text" size="40">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="arial" size="4" color="#ffffff">
+                                            Message
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="arial" size="4" color="#ffffff">
+                                            <textarea rows="5" cols="42"></textarea>
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        &nbsp;
+                                    </td>
+                                    <td width="70%">
+                                        <button type="Submit" onclick="submit()"
+                                            style="position: relative ; left: 50%; transform: translate(-50%,0);">
+                                            <font face="arial" size="4" color="#0000">
+                                                submit
+                                            </font>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--End Contact-->
+
+    <!--Start Footer-->
+    <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="#0E98A3">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <tr>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-facebook-square" aria-hidden="true"></span>
+                                <a href="https://www.facebook.com\mukulkumar.issar\friends\"
+                                    style="text-decoration: none; color:#f3971b ;">Facebook</a>
+                            </font>
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-twitter-square" aria-hidden="true"></span>
+                                <a href="https://www.Twitter.com/"
+                                    style="text-decoration: none; color:#f3971b ;">Twitter</a>
+                            </font>
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-instagram" aria-hidden="true"></span>
+                                <a href="https://www.instagram.com/"
+                                    style="text-decoration: none; color:#f3971b ;">Instagram</a>
+                            </font>
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-linkedin-square" aria-hidden="true"></span>
+                                Linkedin
+                            </font>
+                        </td>
+                        <td rowspan="2">
+                            <font face="arial" color="#ffffff" size="6">
+                                <span class="fa fa-arrow-circle-up" aria-hidden="true"></span>
+                                <a href="#home">
+                                    <font face="arial" color="#ffffff" size="6">
+                                        Top
+                                    </font>
+                                </a>
+                            </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-youtube-square" aria-hidden="true"></span>
+                                <a href="https://www.youtube.com"
+                                    style="text-decoration: none; color:#f3971b ;">YouTube</a>
+                            </font>
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-brands fa-quora" aria-hidden="true"></span>
+                                <a href="https://quorablog.quora.com/"
+                                    style="text-decoration: none; color:#f3971b ;">Blogs</a>
+                            </font>
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                <a href="mailto: aaryaissar123@gmail.com"
+                                    style="text-decoration: none; color:#f3971b ;">Email</a>
+                            </font>
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-globe" aria-hidden="true"></span>
+                                Website
+                            </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--End Footer-->
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+    integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    let unsernameEl = document.querySelector("#user-name100");
+    function submit() {
+        swal({
+            title: "well done!",
+            text: `you have submitted the form for contacting.\n We will reach you out shortly.\n thanks ${unsernameEl.value} for contacting.`,
+            icon: "success",
+            button: "welcome"
+        })
+        // alert(`you have submitted the form for contacting. thanks ${unsernameEl.value} for contacting.`)
+    }
+</script>
+
+</html>
